@@ -45,7 +45,7 @@ export const App = () => {
                   className="opacity-0 hover:opacity-100 w-24 h-4 mt-40 "
                   onClick={() => {
                     setButtonClicked(!buttonClicked);
-                    // SendEmail();
+                    SendEmail();
                   }}
                 >
                   Click me!
